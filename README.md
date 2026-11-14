@@ -40,6 +40,8 @@ window, where you choose what each edge and corner does.
 
 ## Update
 
+Hem › **About** › **Check for Updates** tells you when a new version is out (from version 0.2.0).
+
 1. Quit Hem (menu bar icon › Quit Hem).
 2. Download the new DMG and drag Hem into Applications, replacing the old one.
 3. Run the command from step 2 of Install again.
@@ -55,8 +57,10 @@ certificate.
 | **Automation** (asked when first needed) | To read and set the playback position in Music, Spotify and browser tabs, and to switch dark mode. |
 | **Audio capture** (only for one app's volume) | To pass one app's sound through at the level you set. Nothing is recorded. |
 
-Hem makes **no network connections**. It has no accounts, analytics or update checks. Your settings,
-its touch log and daily counts stay on your Mac in `~/Library/Application Support/Hem`.
+Hem has no accounts, analytics or tracking. It goes online for one thing only: asking GitHub whether a
+newer release is out, when you click **Check for Updates** (Hem › About), or once a day if you turn
+that on (it's off by default). Nothing about you or your Mac is sent. Your settings, touch log and daily
+counts stay on your Mac in `~/Library/Application Support/Hem`.
 
 ## Troubleshooting
 
