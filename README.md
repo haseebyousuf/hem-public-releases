@@ -40,14 +40,16 @@ window, where you choose what each edge and corner does.
 
 ## Update
 
-Hem › **About** › **Check for Updates** tells you when a new version is out (from version 0.2.0).
+From version 0.3.0, Hem updates itself: **Hem › About › Check for Updates**, then **Update Now**. Hem
+downloads the new version, checks that it's signed by the same developer (a tampered download is
+refused), replaces itself and restarts. No Terminal command; your settings and permissions stay.
 
+Turn on **Check automatically once a day** in About to hear about new versions without asking.
+
+**Updating from 0.2.0 or earlier** (once, by hand):
 1. Quit Hem (menu bar icon › Quit Hem).
 2. Download the new DMG and drag Hem into Applications, replacing the old one.
 3. Run the command from step 2 of Install again.
-
-Your settings stay, and so does the Accessibility permission: every release is signed with the same
-certificate.
 
 ## Permissions and privacy
 
