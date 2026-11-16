@@ -8,9 +8,9 @@ you type, ignores palms and ordinary pointing, and shows what happened in a HUD 
 notch.
 
 The notch is also an island you can use: hover for a peek, click to open it, click away or press
-Escape to close. It shows your battery when you plug in or run low, a timer you start from the menu
-bar or a corner, Caps Lock, a muted microphone, and Keep awake; two at once share it, the second in its
-own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
+Escape to close. It shows what's playing (Music, Spotify and browser tabs, with artwork and controls),
+your battery when you plug in or run low, a timer you start from the menu bar or a corner, Caps Lock, a
+muted microphone, and Keep awake; two at once share it, the second in its own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
 Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
 whether it steps aside for full-screen apps.
 
@@ -63,12 +63,16 @@ Turn on **Check automatically once a day** in About to hear about new versions w
 | Permission | Why |
 | --- | --- |
 | **Accessibility** (required) | To know that a key went down (never which key) so the edges sleep while you type, and to send shortcuts, move windows and open Notification Center. |
-| **Automation** (asked when first needed) | To read and set the playback position in Music, Spotify and browser tabs, and to switch dark mode. |
+| **Automation** (asked when first needed) | To see what's playing and control it in Music, Spotify and browser tabs, and to switch dark mode. In Ardia, Hem uses Ardia's own command-line tool when it's installed. |
 | **Audio capture** (only for one app's volume) | To pass one app's sound through at the level you set. Nothing is recorded. |
 
-Hem has no accounts, analytics or tracking. It goes online for one thing only: asking GitHub whether a
-newer release is out, when you click **Check for Updates** (Hem › About), or once a day if you turn
-that on (it's off by default). Nothing about you or your Mac is sent. Your settings, touch log and daily
+Hem has no accounts, analytics or tracking. It goes online for two things only:
+- asking GitHub whether a newer release is out, when you click **Check for Updates** (Hem › About), or
+  once a day if you turn that on (it's off by default);
+- while a song plays in Spotify or on YouTube, fetching its artwork from Spotify's or YouTube's image
+  servers (turn it off on the Island page; Music's artwork never leaves your Mac).
+
+Nothing about you or your Mac is sent. Your settings, touch log and daily
 counts stay on your Mac in `~/Library/Application Support/Hem`.
 
 ## Troubleshooting
@@ -92,6 +96,15 @@ makes a slide count only after you rest or click first.
 It takes clicks only on its own black shape, never beside it. If it still bothers you, turn off
 **Open on hover** on the Island page, switch off the activities you don't want there, or choose a
 different HUD style in Settings › On screen.
+
+**Now playing doesn't show a browser tab**
+Hem reads tabs by scripting the browser: allow it under System Settings › Privacy & Security ›
+Automation. If the playing tab is in another window or space, Hem may only be able to say that the
+browser is playing.
+
+**I want Hem's HUD for the keyboard's volume keys**
+Settings › On screen › **Use Hem's HUD for the keyboard keys**. Hem then handles the volume, brightness
+and keyboard-light keys; anything it can't handle still goes to macOS.
 
 **Seeking doesn't work in a browser tab**
 For sites other than YouTube, the browser must allow JavaScript from Apple Events (in Chrome-based
