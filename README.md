@@ -8,7 +8,8 @@ you type, ignores palms and ordinary pointing, and shows what happened in a HUD 
 notch.
 
 The notch is also an island you can use: hover for a peek, click to open it, click away or press
-Escape to close. It shows what's playing (Music, Spotify and browser tabs, with artwork and controls),
+Escape to close. Clicking the bare notch opens its home, with what's playing and a timer as tabs, and
+two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows what's playing (Music, Spotify and browser tabs, with artwork and controls),
 your battery when you plug in or run low, a timer you start from the menu bar or a corner, Caps Lock, a
 muted microphone, and Keep awake; two at once share it, the second in its own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
 Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
