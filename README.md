@@ -8,9 +8,11 @@ you type, ignores palms and ordinary pointing, and shows what happened in a HUD 
 notch.
 
 The notch is also an island you can use: hover for a peek, click to open it, click away or press
-Escape to close. While Keep awake is on, a cup sits beside the notch. Screens without a notch get a
-small pill in the menu bar instead. Settings › Island chooses the shape, whether hovering opens it,
-and whether it steps aside for full-screen apps.
+Escape to close. It shows your battery when you plug in or run low, a timer you start from the menu
+bar or a corner, Caps Lock, a muted microphone, and Keep awake; two at once share it, the second in its
+own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
+Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
+whether it steps aside for full-screen apps.
 
 **[Download the latest version](https://github.com/haseebyousuf/hem-public-releases/releases/latest)**
 
@@ -88,7 +90,8 @@ makes a slide count only after you rest or click first.
 
 **The island gets in the way**
 It takes clicks only on its own black shape, never beside it. If it still bothers you, turn off
-**Open on hover** in Settings › Island, or choose a different HUD style in Settings › On screen.
+**Open on hover** on the Island page, switch off the activities you don't want there, or choose a
+different HUD style in Settings › On screen.
 
 **Seeking doesn't work in a browser tab**
 For sites other than YouTube, the browser must allow JavaScript from Apple Events (in Chrome-based
