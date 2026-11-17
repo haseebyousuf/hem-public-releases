@@ -15,6 +15,12 @@ muted microphone, and Keep awake; two at once share it, the second in its own bu
 Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
 whether it steps aside for full-screen apps.
 
+The island also has a shelf: drag files to the notch to keep them for later, and drag them out again
+when you need them (hold Option to keep a copy on the shelf). Hold a drag over the notch to open the
+Shelf tab, where you can drop onto AirDrop too. Click a file and press Space for Quick Look. Files stay
+where they are; images and photos that come without a file are kept in Hem's folder. macOS may ask once
+whether Hem can open files from Desktop, Documents or Downloads.
+
 **[Download the latest version](https://github.com/haseebyousuf/hem-public-releases/releases/latest)**
 
 This repository holds Hem's releases and this guide. Hem is free to use; its source isn't public yet.
@@ -86,17 +92,17 @@ Run the command from step 2 of Install, then open Hem again.
 - Check **System Settings › Privacy & Security › Accessibility**: Hem must be in the list and turned
   on. If it's on but Hem still doesn't react, remove it with the **–** button, then open Hem again and
   allow it.
-- Open Hem › Settings › More › **Troubleshooting** to see which parts are working.
+- Open Hem › Advanced › **Troubleshooting** to see which parts are working.
 
 **A slide or tap happens when I didn't mean it**
-Open Hem › **Activity**: it lists every touch Hem acted on or ignored, and why. Settings › Feel ›
-**Edge width** makes the edges narrower. Under Settings › More › Advanced settings, **Strict mode**
-makes a slide count only after you rest or click first.
+Open Hem › **Activity**: it lists every touch Hem acted on or ignored, and why. Feel › **Edge width**
+makes the edges narrower. Under Advanced, **Strict mode** makes a slide count only after you rest or
+click first.
 
 **The island gets in the way**
 It takes clicks only on its own black shape, never beside it. If it still bothers you, turn off
 **Open on hover** on the Island page, switch off the activities you don't want there, or choose a
-different HUD style in Settings › On screen.
+different HUD style on the On Screen page.
 
 **Now playing doesn't show a browser tab**
 Hem reads tabs by scripting the browser: allow it under System Settings › Privacy & Security ›
@@ -104,7 +110,7 @@ Automation. If the playing tab is in another window or space, Hem may only be ab
 browser is playing.
 
 **I want Hem's HUD for the keyboard's volume keys**
-Settings › On screen › **Use Hem's HUD for the keyboard keys**. Hem then handles the volume, brightness
+On Screen › **Use Hem's HUD for the keyboard keys**. Hem then handles the volume, brightness
 and keyboard-light keys; anything it can't handle still goes to macOS.
 
 **Seeking doesn't work in a browser tab**
@@ -120,7 +126,7 @@ browsers: View › Developer › Allow JavaScript from Apple Events).
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/haseebyousuf/hem-public-releases/issues).
-Screenshots of Settings › More › Troubleshooting help.
+Screenshots of Advanced › Troubleshooting help.
 
 ---
 
