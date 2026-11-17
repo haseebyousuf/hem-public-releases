@@ -9,7 +9,7 @@ notch.
 
 The notch is also an island you can use: hover for a peek, click to open it, click away or press
 Escape to close. Clicking the bare notch opens its home, with what's playing and a timer as tabs, and
-two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows what's playing (Music, Spotify and browser tabs, with artwork and controls),
+two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows the music you're playing (the Music app, Spotify, and YouTube Music, Spotify or Apple Music in a browser, with artwork and controls; videos and calls never show),
 your battery when you plug in or run low, a timer you start from the menu bar or a corner, Caps Lock, a
 muted microphone, and Keep awake; two at once share it, the second in its own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
 Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
@@ -81,7 +81,7 @@ Turn on **Check automatically once a day** in About to hear about new versions w
 Hem has no accounts, analytics or tracking. It goes online for two things only:
 - asking GitHub whether a newer release is out, when you click **Check for Updates** (Hem › About), or
   once a day if you turn that on (it's off by default);
-- while a song plays in Spotify or on YouTube, fetching its artwork from Spotify's or YouTube's image
+- while a song plays in Spotify or on YouTube Music, fetching its artwork from Spotify's or YouTube's image
   servers (turn it off on the Island page; Music's artwork never leaves your Mac).
 
 Nothing about you or your Mac is sent. Your settings, touch log and daily
@@ -110,9 +110,12 @@ It takes clicks only on its own black shape, never beside it. If it still bother
 different HUD style on the On Screen page.
 
 **Now playing doesn't show a browser tab**
+Only music sites show: YouTube Music, Spotify's web player and Apple Music (each can be switched off
+under Island › Now playing). YouTube videos, calls and other sites are left out on purpose.
 Hem reads tabs by scripting the browser: allow it under System Settings › Privacy & Security ›
-Automation. If the playing tab is in another window or space, Hem may only be able to say that the
-browser is playing.
+Automation. In Chrome and similar browsers, YouTube Music shows only while no YouTube video, call or
+other video site is open in that browser, since Hem can't tell which tab the sound comes from (in Ardia,
+Hem reads the music tab itself).
 
 **I want Hem's HUD for the keyboard's volume keys**
 On Screen › **Use Hem's HUD for the keyboard keys**. Hem then handles the volume, brightness
