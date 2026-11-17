@@ -21,6 +21,11 @@ Shelf tab, where you can drop onto AirDrop too. Click a file and press Space for
 where they are; images and photos that come without a file are kept in Hem's folder. macOS may ask once
 whether Hem can open files from Desktop, Documents or Downloads.
 
+It can show your calendar too (Island › Calendar, off until you turn it on; macOS asks for calendar
+access then): your next event beside the notch with a countdown, a card with **Join** for Zoom, Meet,
+Teams, Webex and FaceTime calls when it starts, and a ring while it runs. Swipe up to put an event
+away. Your calendars never leave your Mac.
+
 **[Download the latest version](https://github.com/haseebyousuf/hem-public-releases/releases/latest)**
 
 This repository holds Hem's releases and this guide. Hem is free to use; its source isn't public yet.
@@ -112,6 +117,11 @@ browser is playing.
 **I want Hem's HUD for the keyboard's volume keys**
 On Screen › **Use Hem's HUD for the keyboard keys**. Hem then handles the volume, brightness
 and keyboard-light keys; anything it can't handle still goes to macOS.
+
+**The calendar doesn't show**
+Check that Calendar is on under Island, and that Hem is allowed under System Settings › Privacy &
+Security › Calendars. All-day events, events you've declined and calendars you switched off on the
+Island page don't show.
 
 **Seeking doesn't work in a browser tab**
 For sites other than YouTube, the browser must allow JavaScript from Apple Events (in Chrome-based
