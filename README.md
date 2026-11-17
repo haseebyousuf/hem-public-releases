@@ -19,8 +19,8 @@ next one forward). A Mirror tab shows your front camera for a quick look before 
 recorded). Screens without a notch get a small pill in the menu bar instead.
 
 In Hem's window, the **Island** group in the sidebar has a page for each activity, and **Behavior**
-chooses the shape, whether hovering opens it, whether it steps aside for full-screen apps, or turns the
-island off altogether. On Screen › **Hide from screen recordings and sharing** keeps the island and
+chooses the shape, whether hovering opens it, whether it steps aside for full-screen apps, which tab it
+opens on and the tabs' order, or turns the island off altogether. On Screen › **Hide from screen recordings and sharing** keeps the island and
 Hem's levels out of screenshots and shared screens.
 
 The island also has a shelf: drag files to the notch to keep them for later, and drag them out again
@@ -35,6 +35,11 @@ Teams, Webex and FaceTime calls when it starts, and a ring while it runs. Swipe 
 away. The Calendar tab shows the rest of your day, or the next day with events when today is clear,
 and can list the reminders due today: click a reminder's circle to tick it off. Your calendars and
 reminders never leave your Mac.
+
+If you use Claude Code, the island can show your Claude plan's limits too (Island › Claude, off until you
+connect it): the current session and the week, with when each resets, and a warning beside the notch when
+the session passes 80%. Hem reads them from Claude Code's status line through a small helper; your own
+status line keeps working, and **Disconnect** puts the setting back. Nothing is sent anywhere.
 
 **[Download the latest version](https://github.com/haseebyousuf/hem-public-releases/releases/latest)**
 
@@ -93,7 +98,8 @@ Turn on **Check automatically once a day** in About to hear about new versions w
 | **Bluetooth** (only for Headphones) | To see when headphones connect, with their name and battery. |
 | **Camera** (only for the Mirror) | To show your front camera while the Mirror tab is open. Nothing is recorded. |
 
-Hem explains each of these before macOS asks.
+Hem explains each of these before macOS asks. Claude usage needs no permission: connecting it changes
+one setting in `~/.claude/settings.json` (a copy is kept as `settings.json.hem-backup`).
 
 Hem has no accounts, analytics or tracking. It goes online for two things only:
 - asking GitHub whether a newer release is out, when you click **Check for Updates** (Hem › About), or
