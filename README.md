@@ -11,7 +11,7 @@ The notch is also an island you can use: hover for a peek, click to open it, cli
 Escape to close. Clicking the bare notch opens its home, with what's playing and a timer as tabs, and
 two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows the music you're playing (the Music app, Spotify, and YouTube Music, Spotify or Apple Music in a browser, with artwork and controls; videos and calls never show),
 your battery when you plug in or run low, a timer you start from the menu bar or a corner, Caps Lock, a
-muted microphone, and Keep awake; two at once share it, the second in its own bubble. Screens without a notch get a small pill in the menu bar instead. The **Island** page in
+muted microphone, and Keep awake; two at once share it, the second in its own bubble (middle-click the island to bring the next one forward). Screens without a notch get a small pill in the menu bar instead. The **Island** page in
 Hem's window has a switch for each activity, and chooses the shape, whether hovering opens it, and
 whether it steps aside for full-screen apps.
 
