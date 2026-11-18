@@ -115,6 +115,11 @@ counts stay on your Mac in `~/Library/Application Support/Hem`.
 **"Hem is damaged and can't be opened" or "Apple could not verify Hem"**
 Run the command from step 2 of Install, then open Hem again.
 
+**Hem 0.11.0 quits as soon as it opens**
+With Headphones on and Bluetooth audio connected, 0.11.0 can close right after opening on macOS 27.2.
+Download 0.11.1 or later from the [latest release](https://github.com/haseebyousuf/hem-public-releases/releases/latest),
+replace Hem in Applications, and run the command from step 2 of Install again.
+
 **The edges do nothing**
 - Check that Hem is on: its menu bar icon shows pause bars when it's paused.
 - Check **System Settings › Privacy & Security › Accessibility**: Hem must be in the list and turned
