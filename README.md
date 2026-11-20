@@ -8,14 +8,15 @@ you type, ignores palms and ordinary pointing, and shows what happened in a HUD 
 notch.
 
 The notch is also an island you can use: hover for a peek, click to open it, click away or press
-Escape to close. Clicking the bare notch opens its home, with what's playing, your day and a Pomodoro as
-tabs, and two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows the
+Escape to close. Clicking the bare notch opens its home, with what's playing, your day, a to-do list and a
+Pomodoro as tabs, and a gear that opens Hem's window, and two-finger swipes on it work too: down opens, up closes, sideways skips the song. It shows the
 music you're playing (the Music app, Spotify, and YouTube Music, Spotify or Apple Music in a browser,
 with artwork and controls; videos and calls never show), your battery when you plug in or run low, your
 AirPods or other headphones with their battery when they connect, a Pomodoro (focus, then a break, each
 starting by itself) you start from the island, the menu bar or a corner, Caps Lock, a muted microphone,
 and Keep awake; two at once share it, the second in its own bubble (middle-click the island to bring the
-next one forward). A Mirror tab shows your front camera for a quick look before a call (nothing is
+next one forward). The To-do tab is a quick list: type a task and press Return, click its circle to
+tick it off; it stays on this Mac. A Mirror tab shows your front camera for a quick look before a call (nothing is
 recorded). Screens without a notch get a small pill in the menu bar instead.
 
 In Hem's window, the **Island** group in the sidebar has a page for each activity, and **Behavior**
